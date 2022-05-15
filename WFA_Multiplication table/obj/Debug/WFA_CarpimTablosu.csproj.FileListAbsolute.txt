@@ -1,0 +1,10 @@
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\15.03\Loops\WFA_CarpimTablosu\bin\Debug\WFA_CarpimTablosu.exe.config
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\15.03\Loops\WFA_CarpimTablosu\bin\Debug\WFA_CarpimTablosu.exe
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\15.03\Loops\WFA_CarpimTablosu\bin\Debug\WFA_CarpimTablosu.pdb
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\15.03\Loops\WFA_CarpimTablosu\obj\Debug\WFA_CarpimTablosu.Form1.resources
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\15.03\Loops\WFA_CarpimTablosu\obj\Debug\WFA_CarpimTablosu.Properties.Resources.resources
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\15.03\Loops\WFA_CarpimTablosu\obj\Debug\WFA_CarpimTablosu.csproj.GenerateResource.cache
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\15.03\Loops\WFA_CarpimTablosu\obj\Debug\WFA_CarpimTablosu.csproj.CoreCompileInputs.cache
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\15.03\Loops\WFA_CarpimTablosu\obj\Debug\WFA_CarpimTablosu.exe
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\15.03\Loops\WFA_CarpimTablosu\obj\Debug\WFA_CarpimTablosu.pdb
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\15.03\Loops\WFA_CarpimTablosu\obj\Debug\WFA_CarpimTablosu.csproj.AssemblyReference.cache
