@@ -1,0 +1,11 @@
+C:\Users\Huawei\source\repos\WFA_BonusOdev\WFA_BonusOdev\bin\Debug\WFA_BonusOdev.exe.config
+C:\Users\Huawei\source\repos\WFA_BonusOdev\WFA_BonusOdev\bin\Debug\WFA_BonusOdev.exe
+C:\Users\Huawei\source\repos\WFA_BonusOdev\WFA_BonusOdev\bin\Debug\WFA_BonusOdev.pdb
+C:\Users\Huawei\source\repos\WFA_BonusOdev\WFA_BonusOdev\obj\Debug\WFA_BonusOdev.csproj.AssemblyReference.cache
+C:\Users\Huawei\source\repos\WFA_BonusOdev\WFA_BonusOdev\obj\Debug\WFA_BonusOdev.csproj.SuggestedBindingRedirects.cache
+C:\Users\Huawei\source\repos\WFA_BonusOdev\WFA_BonusOdev\obj\Debug\WFA_BonusOdev.Form1.resources
+C:\Users\Huawei\source\repos\WFA_BonusOdev\WFA_BonusOdev\obj\Debug\WFA_BonusOdev.Properties.Resources.resources
+C:\Users\Huawei\source\repos\WFA_BonusOdev\WFA_BonusOdev\obj\Debug\WFA_BonusOdev.csproj.GenerateResource.cache
+C:\Users\Huawei\source\repos\WFA_BonusOdev\WFA_BonusOdev\obj\Debug\WFA_BonusOdev.csproj.CoreCompileInputs.cache
+C:\Users\Huawei\source\repos\WFA_BonusOdev\WFA_BonusOdev\obj\Debug\WFA_BonusOdev.exe
+C:\Users\Huawei\source\repos\WFA_BonusOdev\WFA_BonusOdev\obj\Debug\WFA_BonusOdev.pdb

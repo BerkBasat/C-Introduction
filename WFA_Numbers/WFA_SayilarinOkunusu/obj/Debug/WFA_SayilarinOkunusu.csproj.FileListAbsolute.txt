@@ -1,0 +1,10 @@
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\21.03\WFA_SayilarinOkunusu\WFA_SayilarinOkunusu\bin\Debug\WFA_SayilarinOkunusu.exe.config
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\21.03\WFA_SayilarinOkunusu\WFA_SayilarinOkunusu\bin\Debug\WFA_SayilarinOkunusu.exe
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\21.03\WFA_SayilarinOkunusu\WFA_SayilarinOkunusu\bin\Debug\WFA_SayilarinOkunusu.pdb
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\21.03\WFA_SayilarinOkunusu\WFA_SayilarinOkunusu\obj\Debug\WFA_SayilarinOkunusu.csproj.AssemblyReference.cache
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\21.03\WFA_SayilarinOkunusu\WFA_SayilarinOkunusu\obj\Debug\WFA_SayilarinOkunusu.Form1.resources
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\21.03\WFA_SayilarinOkunusu\WFA_SayilarinOkunusu\obj\Debug\WFA_SayilarinOkunusu.Properties.Resources.resources
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\21.03\WFA_SayilarinOkunusu\WFA_SayilarinOkunusu\obj\Debug\WFA_SayilarinOkunusu.csproj.GenerateResource.cache
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\21.03\WFA_SayilarinOkunusu\WFA_SayilarinOkunusu\obj\Debug\WFA_SayilarinOkunusu.csproj.CoreCompileInputs.cache
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\21.03\WFA_SayilarinOkunusu\WFA_SayilarinOkunusu\obj\Debug\WFA_SayilarinOkunusu.exe
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\21.03\WFA_SayilarinOkunusu\WFA_SayilarinOkunusu\obj\Debug\WFA_SayilarinOkunusu.pdb
