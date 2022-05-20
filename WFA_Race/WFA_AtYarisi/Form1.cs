@@ -17,15 +17,12 @@ namespace WFA_AtYarisi
             InitializeComponent();
         }
 
-        //RAM'in çalışması yapısını araştırın.
         Random rnd = new Random();
 
-        //değişkenler
         string atBir = "şahbatur";
         string atIki = "gülbatur";
         string atUc = "şahin";
 
-        //Metotlar
         void Kostur(int hiz)
         {
             if (hiz > 10 && hiz <= 100)
@@ -128,7 +125,6 @@ namespace WFA_AtYarisi
         }
         private void btnBaslat_Click(object sender, EventArgs e)
         {
-            // pbAt1.Right = 10; //bir tool'u  sadece  sol (left) ve alt (bottom) özelliklerine değer ataması gerçekleştirilir. sağ (right) ve üst (top) değerleri sadece okunabilir (read only)
             timer1.Start();
         }
 
@@ -145,11 +141,6 @@ namespace WFA_AtYarisi
             Spiker();
 
            
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
