@@ -16,7 +16,7 @@ namespace WFA_TahminEt
         {
             InitializeComponent();
         }
-        Random rnd = new Random(); //instance.. Örnek alma
+        Random rnd = new Random();
         int userGuess;
         int guess;
         int guessAmount = 5;
@@ -39,11 +39,10 @@ namespace WFA_TahminEt
             if (guessAmount > 0)
             {
                 guess = int.Parse(txtTahmin.Text);
-                //MessageBox.Show(tahminEdilenSayi.ToString());
 
                 if (userGuess == guess)
                 {
-                    lblSonuc.Text = "Tebrikler doğru tahmin!";
+                    lblSonuc.Text = "You guessed right!";
                     level++;
                     lblSeviye.Text = level.ToString();
                     guessAmount = 5;
@@ -53,21 +52,21 @@ namespace WFA_TahminEt
                 }
                 else if (userGuess < guess)
                 {
-                    lblSonuc.Text = "Daha küçük bir sayı giriniz";
+                    lblSonuc.Text = "Guess a lower number!";
                     guessAmount--;
                     lblTahmin.Text = guessAmount.ToString();
 
                 }
                 else if (userGuess > guess)
                 {
-                    lblSonuc.Text = "Daha büyük bir değer giriniz";
+                    lblSonuc.Text = "Guess a higher number!";
                     guessAmount--;
                     lblTahmin.Text = guessAmount.ToString();
                 }
             }
             else
             {
-                MessageBox.Show("Tahmin hakkınız doldu!");
+                MessageBox.Show("You lost!");
             }
 
             

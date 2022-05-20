@@ -134,7 +134,7 @@ namespace WFA_McAdan
 
             if (listBox1.Items.Count > 0)
             {
-                DialogResult dr = MessageBox.Show("Siparişi Tamamlamak İstediğinize Eminmisiniz?", "Sipariş İşlemi", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                DialogResult dr = MessageBox.Show("Are you sure you want to finish your order?", "Order", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if (dr == DialogResult.Yes)
                 {
@@ -152,7 +152,7 @@ namespace WFA_McAdan
             }
             else
             {
-                MessageBox.Show("Sipariş Vermediniz!");
+                MessageBox.Show("You didn't ordered anything!");
             }
             menu = "";
             price = 0;

@@ -17,34 +17,20 @@ namespace WFA_BakiyeIslemi
             InitializeComponent();
         }
 
-        //Bakiye değişkenleri
         decimal bakiye = 500;
         decimal cekilenTutar = 0;
         decimal yatirilanTutar = 0;
-        string hataMesaj = "bakiyeniz yetersiz lütfen bakiye yükleyin...";
-
-        //Alişveriş listesi değişkenleri
-
-        //todo:fiyatlar isteğe bağlı güncellenebilir olsun.
-
+        string errorMessage = "You need to deposit more money!";
 
         private void Form1_Load(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
             listBox2.Items.Clear();
             lblBakiye.Text = bakiye.ToString("C2");
-            //ToString("C2") => currency anlamında kullanılmaktadır. İşletim sisteminin dilini baz alarak para brimini string olarak gösterir.
         }
 
         private void btnParaCek_Click(object sender, EventArgs e)
         {
-            //cekilenTutar = nudParaCek.Value;
-            //bakiye = bakiye - cekilenTutar;
-            //lblBakiye.Text = bakiye.ToString("C2");
-            //if (bakiye > 0 &&bakiye>=cekilenTutar)
-            //{
-            //    listBox1.Items.Add(cekilenTutar.ToString("C2"));
-            //}
 
             if (bakiye >= nudParaCek.Value)
             {
@@ -53,7 +39,7 @@ namespace WFA_BakiyeIslemi
                     bakiye -= nudParaCek.Value;
                     lblBakiye.Text = bakiye.ToString("C2");
                     cekilenTutar = nudParaCek.Value;
-                    listBox1.Items.Add("Para Çekme: " + cekilenTutar.ToString("C2"));
+                    listBox1.Items.Add("Withdraw: " + cekilenTutar.ToString("C2"));
                 }
                 
 
@@ -71,17 +57,16 @@ namespace WFA_BakiyeIslemi
                 bakiye += nudParaYatir.Value;
                 lblBakiye.Text = bakiye.ToString("C2");
                 yatirilanTutar = nudParaYatir.Value;
-                listBox1.Items.Add("Para Yatırma :" + yatirilanTutar.ToString("C2"));
+                listBox1.Items.Add("Deposit :" + yatirilanTutar.ToString("C2"));
             }
             else
             {
-                MessageBox.Show("en az 1 TL yükleyin...");
+                MessageBox.Show("Please deposit money!");
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //alışveriş sepetini
             decimal toplamTutar = 0;
             string siparis = "";
 
@@ -119,7 +104,7 @@ namespace WFA_BakiyeIslemi
                 if (toplamTutar <= bakiye)
                 {
                     lblToplam.Text = toplamTutar.ToString("C2");
-                    listBox2.Items.Add(siparis + " Toplam :" + toplamTutar.ToString("C2"));
+                    listBox2.Items.Add(siparis + " Total :" + toplamTutar.ToString("C2"));
                     bakiye -= toplamTutar;
                     lblBakiye.Text = bakiye.ToString("C2");
                     lblToplam.ForeColor = Color.Green;
@@ -127,12 +112,12 @@ namespace WFA_BakiyeIslemi
                 else
                 {
                     lblToplam.ForeColor = Color.Red;
-                    MessageBox.Show(hataMesaj);
+                    MessageBox.Show(errorMessage);
                 }
             }
             else
             {
-                MessageBox.Show(hataMesaj);
+                MessageBox.Show(errorMessage);
             }
         }
     }
